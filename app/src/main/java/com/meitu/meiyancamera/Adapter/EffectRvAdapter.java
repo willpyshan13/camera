@@ -29,7 +29,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Created by zero on 2017/3/17.
+ * Created by will on 2017/3/17.
  */
 
 public class EffectRvAdapter extends RecyclerView.Adapter<EffectRvAdapter.MyViewHolder> {

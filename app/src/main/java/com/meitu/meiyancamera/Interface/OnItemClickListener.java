@@ -3,7 +3,7 @@ package com.meitu.meiyancamera.Interface;
 import android.view.View;
 
 /**
- * Created by ZerO on 2017/3/18.
+ * Created by will on 2017/3/18.
  */
 
 public interface OnItemClickListener

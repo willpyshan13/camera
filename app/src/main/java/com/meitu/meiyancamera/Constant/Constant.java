@@ -1,7 +1,7 @@
 package com.meitu.meiyancamera.Constant;
 
 /**
- * Created by ZerO on 2017/3/18.
+ * Created by will on 2017/3/18.
  */
 
 public class Constant {

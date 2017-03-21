@@ -36,7 +36,7 @@ import static android.support.v7.widget.RecyclerView.OnClickListener;
 
 
 /**
- * Created by zero on 2017/3/16.
+ * Created by will on 2017/3/16.
  */
 
 public class EffectActivity extends Activity implements OnClickListener, SeekBar.OnSeekBarChangeListener {
