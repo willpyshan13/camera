@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">com.meitu.meiyancamera</string>
+    <string name="mainactivity_choicepic_btn">选图</string>
+    <string name="mainactivity_back_iv">返回</string>
+    <string name="mainactivity_revoke_btn">撤销</string>
+    <string name="mainactivity_reform_btn">重做</string>
+    <string name="mainactivity_save_iv">保存</string>
+    <string name="mainactivity_effect_btn">高级美颜</string>
+    <string name="nopic_saved">保存失败！</string>
+
+
+
+    <string name="effectactivity_sure_btn">确定</string>
+    <string name="effectactivity_cancle_btn">取消</string>
+
+    <string name="save_success">图片保存成功！</string>
+    <string name="save_failed">图片保存失败！</string>
+
+    <string name="unselected_effect">未选择滤镜效果</string>
+</resources>

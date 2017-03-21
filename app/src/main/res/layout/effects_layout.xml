@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/effectactivity_showoriginalpic_iv"
+        android:scaleType="centerCrop"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/effectactivity_showeffectpic_iv"
+        android:scaleType="centerCrop"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true">
+        <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:max="100"
+            android:progress="100"
+            android:visibility="gone"
+            android:id="@+id/effectactivity_sb"/>
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+
+        android:id="@+id/effectactivity_rv"
+        />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+
+            android:background="#e8e8e8"
+            android:layout_marginTop="10dp"
+            >
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/effectactivity_cancle_ibtn"
+                android:background="@drawable/common_cancel_btn_xml"
+                android:scaleType="fitCenter"
+                android:layout_alignParentLeft="true"
+
+                />
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/common_ok_btn_xml"
+                android:id="@+id/effectactivity_sure_ibtn"
+                android:scaleType="fitCenter"
+                android:layout_alignParentRight="true"
+
+
+
+                />
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>
